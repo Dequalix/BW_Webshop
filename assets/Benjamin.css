@@ -1,0 +1,76 @@
+/* 
+###############################################
+## Name: CSS Webshop Gamepages              ###
+## Date: 08-10-'17                          ###
+## Autors: Benjamin Bolks                   ###
+###############################################
+*/
+
+/* float's */
+.float-center {
+    margin-top: 5%;
+    margin-left: 80%;
+    float:center;
+}
+
+.float-right {
+    margin-top: 5%;
+    float:right;
+}
+
+.float-left {
+    margin-top: 5%;
+    float: left;
+}
+
+/*Clear Float */
+
+.clearFloat {
+    clear: both;
+}
+
+
+/* Buy Button*/
+.buy {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0% 5%;
+    cursor: pointer;
+}
+.buy:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* Article info */
+.info-div { 
+    border: solid green;
+    width:45%;
+ }
+ /* Game publisment info*/
+ .game-info {
+    font-family: arial, sans-serif;
+    width: 300px;
+}
+.delivery {
+    border:solid green;
+    width: 450px;
+}
+/* Table */
+.Name1, .Name2 {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.Table1:nth-child(even) {
+    background-color: #dddddd;
+}
+/* Console's */
+.console {
+    margin-top: 10px;
+}
